@@ -1,0 +1,8 @@
+<?php
+
+return [
+  'DIGIFLAZZ_USERNAME' => env('DIGIFLAZZ_USERNAME'),
+  'DIGIFLAZZ_DEV_KEY' => env('DIGIFLAZZ_DEV_KEY'),
+  'DIGIFLAZZ_PROD_KEY' => env('DIGIFLAZZ_PROD_KEY'),
+  'isProd' => env('APP_ENV')
+];
